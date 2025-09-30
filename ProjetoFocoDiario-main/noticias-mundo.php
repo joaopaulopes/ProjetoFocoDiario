@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias do Mundo - Foco Diário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header-container">
+        <div class="site-title">
+            <h1><a href="index.php">Foco Diário</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Início</a></li>
+                <li><a href="noticias-brasil.php">Brasil</a></li>
+                <li><a href="noticias-mundo.php" class="active">Mundo</a></li>
+                <li><a href="esportes.php">Esportes</a></li>
+                <li><a href="entretenimento.php">Entretenimento</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="cadastro.php">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-principal">
+            <div class="conteudo-principal">
+                <section class="noticias-destaque-mundo">
+                    <h2>Notícias do Mundo em Destaque</h2>
+                    <article class="noticia">
+                        <img src="https://s2-g1.glbimg.com/s-EuP_Dxjdw_88Dv37CDHOWj_aQ=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/Z/e/LH9Xu4SNq5956DD9k5Qw/000-72zf7ke.jpg" alt="Imagem da Notícia do Mundo 1">
+                        <h3>Líderes de China, Rússia e Índia se reúnem em sinal de apoio frente a pressões dos EUA</h3>
+                        <p>O presidente russo, Vladimir Putin, e o primeiro-ministro indiano, Narendra Modi, firmaram acordo para expandir comércio.</p>
+                        <a href="https://g1.globo.com/mundo/noticia/2025/09/01/lideres-de-china-russia-e-india-se-reunem-em-sinal-de-apoio-frente-a-pressoes-dos-eua.ghtml">Leia mais</a>
+                    </article>
+                    <article class="noticia">
+                        <img src="https://s2-g1.glbimg.com/54afnCIT3MI15vpWVcQsW6ZAygM=/810x456/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/c/9/jMkpsORBaWHTQnk0DfpA/2025-09-01t044741z-482427915-rc2pigaie04h-rtrmadp-3-afghanistan-quake.jpg" alt="Imagem da Notícia do Mundo 2">
+                        <h3>Afeganistão: Talibã reduziu ajuda internacional para terremotos</h3>
+                        <p>Sanções internacionais impostas ao país após grupo fundamentalista retomar o poder em 2021 reduziu verba para desastres. Tremor de magnitude 6,0 deixou mais de 800 mortos e mais de 2,8 mil feridos nesta segunda (1º).</p>
+                        <a href="https://g1.globo.com/mundo/noticia/2025/09/01/taliba-reduziu-ajuda-internacional-terremotos-afeganistao.ghtml">Leia mais</a>
+                    </article>
+                </section>
+                
+                <section class="noticias-recentes-mundo">
+                    <h2>Outras Notícias do Mundo</h2>
+                    <article class="noticia-recente">
+                        <h3>Pouso às cegas da presidente da UE: interferências no sistema de GPS atribuídas à Rússia são recorrentes</h3>
+                        <p>Em périplo por sete países do Leste europeu, Ursula von der Leyen descreve Putin como predador, após seu avião sofrer um apagão no sistema de navegação.</p>
+                        <a href="https://g1.globo.com/mundo/blog/sandra-cohen/post/2025/09/01/pouso-as-cegas-da-presidente-da-ue-interferencias-no-sistema-de-gps-atribuidas-a-russia-sao-recorrentes.ghtml">Leia mais</a>
+                    </article>
+                    <article class="noticia-recente">
+                        <h3>Terremoto no Afeganistão: moradores imploram por ajuda em vilas destruídas, e governo pede socorro internacional</h3>
+                        <p>Tremor de magnitude 6,0 deixou mais de 800 mortos e mais de 2,8 mil feridos. Equipes de resgate buscam vítimas sob os escombros, mas região atingida é remota e de difícil acesso.</p>
+                        <a href="https://g1.globo.com/mundo/noticia/2025/09/01/moradores-imploram-por-ajuda-terremoto-afeganistao-governo-pede-socorro-internacional.ghtml">Leia mais</a>
+                    </article>
+                </section>
+            </div>
+
+            <aside class="barra-lateral">
+                <section class="mais-lidas">
+                    <h3>Mais Lidas</h3>
+                    <ul>
+                        <li><h4><a href="https://g1.globo.com/mundo/noticia/2025/09/01/sistema-gps-aviao-chefe-ue-desativado-suposta-interferencia-russa.ghtml">Sistema de GPS de avião de chefe da UE é desativado no ar por suposta interferência russa</a></h4></li>
+                        <li><h4><a href="https://g1.globo.com/mundo/noticia/2025/09/01/hamas-diz-que-gaza-nao-esta-a-venda-jornal-diz-que-israel-oferecera-dinheiro-para-realocacao-voluntaria-de-palestinos.ghtml">Hamas diz que 'Gaza não está à venda'; EUA planejam dar dinheiro em troca da realocação voluntária de palestinos, afirma jornal</a></h4></li>
+                        <li><h4><a href="https://g1.globo.com/mundo/noticia/2025/09/01/helicoptero-militar-cai-no-paquistao-e-deixa-mortos-soldado-pula-da-aeronave-e-consegue-se-salvar.ghtml">Helicóptero militar cai no Paquistão e deixa 4 mortos; soldado pula da aeronave e consegue se salvar</a></h4></li>
+                        <li><h4><a href="https://g1.globo.com/mundo/noticia/2025/08/31/suspeito-de-matar-ex-presidente-do-parlamento-ucraniano-e-preso-diz-zelensky.ghtml">Suspeito de matar ex-presidente do Parlamento ucraniano é preso, diz Zelensky</a></h4></li>
+                    </ul>
+                </section>
+                
+                <section class="publicidade">
+                    <h3>Publicidade</h3>
+                    <img src="" alt="Espaço de publicidade">
+                </section>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Foco Diário. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
